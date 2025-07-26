@@ -350,22 +350,23 @@ a {
   .wiki-ref { font-weight: bold; color: #000; font-size: 2rem;
     #tribute-link { color: #fff; }
   }
-  /** footer styling **/
-  footer {
-    div { border-radius: 0.5rem; }
-    clear: both;
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding: 1rem;
-    position: relative;
-    background-color: $yellow;
-    @include thickBoxShadow;
-    border: $black-border;
-    margin: 1rem;
-    padding: 1rem;
-    p {
-      &:first-child, &:last-child { margin: 0; }
-    }
+}
+
+/** footer styling **/
+footer {
+  div { border-radius: 0.5rem; }
+  clear: both;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1rem;
+  position: relative;
+  background-color: $yellow;
+  @include thickBoxShadow;
+  border: $black-border;
+  margin: 1rem;
+  padding: 1rem;
+  p {
+    &:first-child, &:last-child { margin: 0; }
   }
 }
 
