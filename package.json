@@ -1,17 +1,26 @@
 {
   "name": "fcc-tribute-page",
   "version": "1.0.0",
-  "description": "A Tribute Page for Brendan Eich",
+  "description": "FCC: Build a Tribute Page",
   "main": "index.js",
-  "homepage": "http://user_name.github.io/fcc-tribute-page",
+  "homepage": "https://ralitsataylor.github.io/fcc-tribute-page/",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "scss": "sass --watch --style=compressed --no-source-map scss/:dist/css/",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Ralitsa Voronevska",
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "SCSS",
+    "Responsiveness",
+    "Transitions",
+    "Flex Layout",
+    "Vanilla JS"
+  ],
+  "author": "Ralitsa Taylor",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.12.0"
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2"
   }
 }
