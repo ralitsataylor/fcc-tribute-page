@@ -37,7 +37,7 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 <summary>📸 Screenshots</summary>
 
 ## 🖥️ Desktop preview
-<img src="dist/img/fcc_tribute_page_desktop_preview.jpg" loading="lazy" />
+<img src="dist/img/fcc_tribute_page_desktop_preview.jpg" loading="lazy">
 
 <table width="100%">
   <thead>
@@ -56,82 +56,87 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 
 
 # 🏅 W3C HTML Validator
-<img src="dist/img/fcc_tribute_page_w3c_html_validator.png" loading="lazy" />
+<img src="dist/img/fcc_tribute_page_w3c_html_validator.png" loading="lazy">
 
 
 # 🏅 W3C CSS Validator
-<img src="dist/img/fcc_tribute_page_w3c_css_validator.png" loading="lazy" />
+<img src="dist/img/fcc_tribute_page_w3c_css_validator.png" loading="lazy">
 
 
 # 🌈 Chrome LightHouse Audit
 * Desktop & Mobile:
 
-<img src="dist/img/fcc_tribute_page_desktop_&_mobile_LightHouse_Audit.jpg" loading="lazy" />
+<img src="dist/img/fcc_tribute_page_desktop_&_mobile_LightHouse_Audit.jpg" loading="lazy">
 
 
 # ⚡ PageSpeed Insights Results
 * Desktop:
-<img src="dist/img/PageSpeed_Insights_desktop.jpg" loading="lazy" />
+<img src="dist/img/PageSpeed_Insights_desktop.jpg" loading="lazy">
 
 * Mobile:
-<img src="dist/img/PageSpeed_Insights_mobile.jpg" loading="lazy" />
+<img src="dist/img/PageSpeed_Insights_mobile.jpg" loading="lazy">
 
 </details>          
-
-<br/>                                                                                                                                                                      
-
+<br/>        
+                                                                                                                                              
 # 🛠️ Built with:
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white/) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white/) ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white/)                                                                                     
-![HTML5](https://img.shields.io/badge/html5-%23FFFFFF.svg?style=for-the-badge&logo=html5&logoColor=white/) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white/) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white/) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E/) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white/)                                                                                                                        
-🧩 SCSS Files [Responsiveness, Transitions & Flex Layout]                                                                                                                   
-🧩 [AOS Library v2.3.4](https://github.com/michalsnik/aos/tree/v2/)                                                                                                         
-🧩 [Google Font: Raleway](https://fonts.google.com/specimen/Raleway/)                                                                                                       
-🧩 [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)                                                                                        
-🧩 [Bootstrap v5.3 Icons](https://icons.getbootstrap.com/)                                                                                                                  
+<img src="./dist/img/svgs/git.svg?sanitize=true" alt="Git icon" loading="lazy"> ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white/)                                                                                     
+![HTML5](https://img.shields.io/badge/html5-%23FFFFFF.svg?style=for-the-badge&logo=html5&logoColor=white/) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white/) <img src="./dist/img/svgs/sass.svg?sanitize=true" alt="Sass icon" loading="lazy"> ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E/) <img src="./dist/img/svgs/bootstrap.svg?sanitize=true" alt="Bootstrap icon" loading="lazy">            
+🔨 SCSS Files [Responsiveness, Transitions & Flex Layout]                                                                                                                   
+🔧 [Scroll Out Library](https://scroll-out.github.io/)                                                                                                         
+⛏️ [Google Font: Raleway](https://fonts.google.com/specimen/Raleway/)                                                                                                       
+🪓 [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)                                                                                        
+🪛 [Bootstrap v5.3 Icons](https://icons.getbootstrap.com/)                                                                                                                     
 
 # ✨ Features:
 ✅ Brendan Eich's full Wikipedia biography showcased the modern way     
-✅ Responsive Web Design implemented by using media queries                                                                                                 
-✅ Transitioning Timeline Cards which hide/show on scroll                                                                                                                
-✅ References to Brendan Eich's Wikipedia Page                                                                                                                              
-✅ On hover smootly animated svg tooltips                                                                                                                                   
-✅ Custom-styled Mr. Eich's Famous Quote                                                                                                                              
+✅ Responsive Web Design implemented by using media queries                                                                                             
+✅ Transitioning Timeline Cards which hide/show on scroll                                                                                               
+✅ Reference to Brendan Eich's Wikipedia Page                                                                                                            
+✅ Custom-styled Mr. Eich's Famous Quote                                                                                                                
 ✅ Related Social and Info Links                                                                                                                
-✅ robots.txt                                                                                                                                                               
-✅ sitemap.xml                                                                                                                                                              
-✅ manifest.json                                                                                                                                                            
-✅ service-worker.js                                                                                                                                                         
+✅ robots.txt                                                                                                                                
+✅ sitemap.xml                                                                                                                                   
+✅ manifest.json                                                                                                                                  
+✅ service-worker.js                                                                                                                               
 
 # 🧰 Online resources and tools:
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white/) ![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white/) ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white/) ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white/) ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white/) ![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white/)                  
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white/) <img src="./dist/img/svgs/stackoverflow.svg?sanitize=true" alt="Git icon" loading="lazy"> ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white/) ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white/) ![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white/)                  
 🖼️ [Photopea [Online Photo Editor]](https://www.photopea.com/)                                                                         
 🪄 [svg-to-png & svg minification](https://www.svgviewer.dev/svg-to-png/)                                                               
 
 # 🌐 Browser Support:
-☑️ Last updated and tested: 25/07/2025                                                                                                                                     
-🌟 Chrome 138.0.7204.169 (64-bit)                                                                                                                                           
-🦊 Firefox 141.0 (64-bit)                                                                                                                                                   
-🏴‍☠️ Opera 120.0.5543.93 (64-bit)                                                                                                                                          
-🪟 Edge 138.0.3351.95 (64-bit)                                                                                                                                              
+Last updated and tested: 25/07/2025                                                                                                                                     
+<p style="margin-bottom: 0;"><img src="./dist/img/svgs/chrome.svg?sanitize=true" alt="Chrome icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Chrome 138.0.7204.169 (64-bit)</span></p>                                                                                               
+<p style="margin-bottom: 0;"><img src="./dist/img/svgs/firefox.svg?sanitize=true" alt="Firefox icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Firefox 141.0 (64-bit)</span></p>                                                                                                       
+<p style="margin-bottom: 0;"><img src="./dist/img/svgs/opera.svg?sanitize=true" alt="Opera icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Opera 120.0.5543.93 (64-bit)</span></p>                                                                                                
+<p style="margin-bottom: 0;"><img src="./dist/img/svgs/edge.svg?sanitize=true" alt="Edge icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Edge 138.0.3351.95 (64-bit)</span></p>            
+
+<br>
 
 # 🧪 Online Validators:
-✔️ [W3C HTML Validator](https://validator.w3.org/)                                                                                                                          
-✔️ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                                                                                                                
-💡 [LightHouse Audit](https://developers.google.com/web/tools/lighthouse/)                                                                                                  
-⚡ [PageSpeed Insights Audit](https://pagespeed.web.dev/)                                                                                                                   
+✔️ [W3C HTML Validator](https://validator.w3.org/)                                                                                                         
+✔️ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                                                                                               
+💡 [LightHouse Audit](https://developers.google.com/web/tools/lighthouse/)                                                                             
+⚡ [PageSpeed Insights Audit](https://pagespeed.web.dev/)                                                                                                 
 
 
 # 🌟 Inspiration & Credits
+📑 https://getbootstrap.com/docs/5.3/examples/heroes      
+📑 https://mdbootstrap.com/docs/standard/extended/timeline                                                                                                                                         
 📝 https://codepen.io/itshally/pen/mzrOrx                                                                                                                                   
 📝 https://codepen.io/completejavascript/pen/baOYpa                                                                                                                         
-📝 https://codepen.io/davi3blu3/pen/Vegobo                                                                                                                                  
-🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                                                                                                        
-🎞️ [Animate On Scroll Webpage | AOS Library [YouTube]](https://www.youtube.com/watch?v=ptfUwPJbGlQ/)                                                                                                                              
-📝 [Animate On Scroll Webpage | AOS Library [CodePen]](https://codepen.io/bradtraversy/pen/bGbREWg/)                                                                        
+📝 https://codepen.io/davi3blu3/pen/Vegobo                                
+📝 https://codepen.io/mrtrimble/pen/YzRrzgM                                     
+📝 https://codepen.io/Rowan-Dempsey/pen/EajzryX                                 
+📝 https://codepen.io/MisaelM/pen/raONWOb
+📝 https://codepen.io/Fimko/pen/xbwbLPa                                                                                                                 
+📝 https://codepen.io/Marcos-Estrada/pen/gbawGzQ                                                                                                        
+🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                                                                                                                                      
 
 ---
   
-🙌 Thanks for checking out my project! More is coming 🔜.                                                                                                                  
-Stay tuned 🚀 and don't forget to give the project a star! ⭐                                                                                                              
-Made with lots of 💗, ☕, and a sprinkle of ✨ by Ralitsa Taylor!                                                                                                          
+🙌 Thanks for checking out my project! More coming 🔜.                                                                                                  
+Stay tuned 🚀 and don't forget to give the project a star!                                                                                              
+⭐ Made with lots of 💗, ☕, and a sprinkle of ✨ by Ralitsa Taylor!                                                                                      
