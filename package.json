@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "FCC: Build a Tribute Page",
   "main": "index.js",
-  "homepage": "https://ralitsataylor.github.io/fcc-tribute-page/",
+  "repo": "https://ralitsataylor.github.io/fcc-tribute-page/",
   "scripts": {
     "scss": "sass --watch --style=compressed --no-source-map scss/:dist/css/",
     "deploy": "gh-pages -d dist"
