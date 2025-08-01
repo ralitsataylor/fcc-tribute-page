@@ -95,7 +95,7 @@ a {
       @include thickBoxShadow;
       border-radius: var(--rounded-el-radius);
       &#hero-img-small {
-        display: block;
+        display: flex;
       }
       &#hero-img-large {
         display: none;
@@ -403,7 +403,7 @@ blockquote {
           display: none;
         }
         &#hero-img-large {
-          display: block;
+          display: flex;
         }
       }
     }
