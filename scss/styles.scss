@@ -8,7 +8,6 @@
   --border: 3px solid var(--primary);
   --transition: .5s;
   --el-size: 4rem;
-  --min-el-size: 3rem;
   --rounded-el-radius: 50%;
 }
 
@@ -357,8 +356,8 @@ blockquote {
     .socials-container {
       .social-links {
         div {
-          width: var(--min-el-size);
-          height: var(--min-el-size);
+          width: 3rem;
+          height: 3rem;
           &.website-link {
             .link-light, .link-dark {
               width: 1.5rem;
