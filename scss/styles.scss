@@ -8,6 +8,7 @@
   --border: 3px solid var(--primary);
   --transition: .5s;
   --el-size: 4rem;
+  --min-el-size: 3rem;
   --rounded-el-radius: 50%;
 }
 
@@ -193,8 +194,6 @@ a {
 
 /** blockquote styling **/
 blockquote {
-  border: .4375rem dotted var(--primary); /* 7px */
-  background-color: #aba49d; /* lighten(var(--light-grey), 10%)*/
   p, cite {  
     color: var(--primary); 
   }
@@ -206,12 +205,12 @@ blockquote {
     height: 2rem; 
   }
   .quote-left {
-    left: -.9375rem; /* -15px */
-    top: -.625rem; /* -10px */ 
+    left: -1rem;
+    top: -1rem;
   }
   .quote-right {
-    right: -.9375rem; /* -15px */
-    bottom: -.625rem; /* -10px */ 
+    right: -1rem;
+    bottom: -1rem;
   }
 }
 
@@ -222,6 +221,8 @@ blockquote {
     color: var(--primary); 
   }
   .social-links {
+    max-width: 30rem;
+    gap: .5rem;
     div {
       background-color: var(--inverted);
       border: .1875rem solid var(--yellow); /* 3px */
@@ -308,6 +309,11 @@ blockquote {
         font-size: 1.5rem !important;
       }
     }
+    .hero-caption {
+      .lead {
+        font-size: 1.125rem !important;
+      }
+    }
     /* Place the timelime to the left */
     .main-timeline-content {
       &:after {
@@ -348,6 +354,27 @@ blockquote {
         }
       }
     }
+    .socials-container {
+      .social-links {
+        div {
+          width: var(--min-el-size);
+          height: var(--min-el-size);
+          &.website-link, &.fb-logo {
+            .link-light, .link-dark {
+              width: var(--min-el-size) / 2;
+              height: var(--min-el-size) / 2;
+            }
+            .fb-logo-light, .fb-logo-dark {
+              width: 2rem;
+              height: 2rem;
+            }
+          }
+          a {
+            padding: .5rem;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -379,6 +406,9 @@ blockquote {
         }
       }
     }
+  }
+  .social-links {
+    gap: 2rem !important;
   }
 }
 

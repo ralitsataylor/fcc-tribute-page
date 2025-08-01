@@ -7,7 +7,11 @@
 <details>
 <summary>🎯 FreeCodeCamp Requirements</summary>
 
-## ![FreeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green/) <span style="vertical-align: super;">Responsive Web Design Projects - Build a Tribute Page</span>
+<br>
+
+![FreeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green/)                           
+
+Responsive Web Design Projects - Build a Tribute Page
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx. Do not copy this demo project.
 
@@ -77,7 +81,7 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 <img src="dist/img/PageSpeed_Insights_mobile.jpg" loading="lazy">
 
 </details>          
-<br/>        
+<br>        
                                                                                                                                               
 # 🛠️ Built with:
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white/) 
@@ -107,20 +111,17 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 🪄 [svg-to-png & svg minification](https://www.svgviewer.dev/svg-to-png/)                                                               
 
 # 🌐 Browser Support:
-Last updated and tested: 25/07/2025                                                                                                                                     
-<p style="margin-bottom: 0;"><img src="./dist/img/svgs/chrome.svg?sanitize=true" alt="Chrome icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Chrome 138.0.7204.169 (64-bit)</span></p>                                                                                               
-<p style="margin-bottom: 0;"><img src="./dist/img/svgs/firefox.svg?sanitize=true" alt="Firefox icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Firefox 141.0 (64-bit)</span></p>                                                                                                       
-<p style="margin-bottom: 0;"><img src="./dist/img/svgs/opera.svg?sanitize=true" alt="Opera icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Opera 120.0.5543.93 (64-bit)</span></p>                                                                                                
-<p style="margin-bottom: 0;"><img src="./dist/img/svgs/edge.svg?sanitize=true" alt="Edge icon" loading="lazy"><span style="vertical-align: super; margin-left: 6px;">Edge 138.0.3351.95 (64-bit)</span></p>            
-
-<br>
+(Last updated and tested: 01/08/2025)                                                                                                                   
+🌟 Chrome 138.0.7204.169 (64-bit)                                                                                                                       
+🦊 Firefox 141.0 (64-bit)                                                                                                                               
+🏴‍☠️ Opera 120.0.5543.93 (64-bit)                                                                                                                      
+🪟 Edge 138.0.3351.95 (64-bit)                                                                                                                          
 
 # 🧪 Online Validators:
-✔️ [W3C HTML Validator](https://validator.w3.org/)                                                                                                         
-✔️ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                                                                                               
+✔️ [W3C HTML Validator](https://validator.w3.org/)                                                                                                     
+✔️ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                                                                                           
 💡 [LightHouse Audit](https://developers.google.com/web/tools/lighthouse/)                                                                             
-⚡ [PageSpeed Insights Audit](https://pagespeed.web.dev/)                                                                                                 
-
+⚡ [PageSpeed Insights Audit](https://pagespeed.web.dev/)                                                                                                
 
 # 🌟 Inspiration & Credits
 📑 https://getbootstrap.com/docs/5.3/examples/heroes      
