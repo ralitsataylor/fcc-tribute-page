@@ -90,10 +90,10 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 <img src="./dist/img/svgs/git.svg?sanitize=true" alt="Git icon" loading="lazy"> ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white/)                                                                                     
 ![HTML5](https://img.shields.io/badge/html5-%23FFFFFF.svg?style=for-the-badge&logo=html5&logoColor=white/) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white/) <img src="./dist/img/svgs/sass.svg?sanitize=true" alt="Sass icon" loading="lazy"> ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E/) <img src="./dist/img/svgs/bootstrap.svg?sanitize=true" alt="Bootstrap icon" loading="lazy">            
 🔨 SCSS Files [Responsiveness, Transitions & Flex Layout]                                                                                                                   
-🔧 [Scroll Out Library](https://scroll-out.github.io/)                                                                                                         
-⛏️ [Google Font: Raleway](https://fonts.google.com/specimen/Raleway/)                                                                                                       
-🪓 [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)                                                                                        
-🪛 [Bootstrap v5.3 Icons](https://icons.getbootstrap.com/)                                                                                                                     
+🔧 [Scroll Out Library](https://scroll-out.github.io/)                                                                                                 
+⛏️ [Google Font: Raleway](https://fonts.google.com/specimen/Raleway/)                                                                               
+🪓 [Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)                                                                 
+🪛 [Bootstrap v5.3 Icons](https://icons.getbootstrap.com/)                                                                                              
 
 # ✨ Features:
 ✅ Brendan Eich's full Wikipedia biography showcased the modern way     
@@ -127,16 +127,14 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 
 # 🌟 Inspiration & Credits
 📑 https://getbootstrap.com/docs/5.3/examples/heroes      
-📑 https://mdbootstrap.com/docs/standard/extended/timeline                                                                                                                                         
-📝 https://codepen.io/itshally/pen/mzrOrx                                                                                                                                   
-📝 https://codepen.io/completejavascript/pen/baOYpa                                                                                                                         
+📑 https://mdbootstrap.com/docs/standard/extended/timeline                                                                                              
+📝 https://codepen.io/itshally/pen/mzrOrx                                                                                                         
+📝 https://codepen.io/completejavascript/pen/baOYpa                                                                                                    
 📝 https://codepen.io/davi3blu3/pen/Vegobo                                
 📝 https://codepen.io/mrtrimble/pen/YzRrzgM                                     
 📝 https://codepen.io/Rowan-Dempsey/pen/EajzryX                                 
 📝 https://codepen.io/MisaelM/pen/raONWOb                                                                                                               
-📝 https://codepen.io/Fimko/pen/xbwbLPa                                                                                                                 
-📝 https://codepen.io/Marcos-Estrada/pen/gbawGzQ                                                                                                        
-🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                                                                                                                                      
+🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                            
 
 ---
   
