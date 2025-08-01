@@ -269,7 +269,14 @@ blockquote {
 }
 
 /** Classes for transitions on scroll **/
-.fade-in[data-scroll], .fade-in-right[data-scroll] {
+.fade-in[data-scroll] {
+  opacity: 0;
+  will-change: transform, opacity;
+  transform: translateY(6rem);
+  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fade-in-right[data-scroll] {
   opacity: 0;
   will-change: transform, scale, opacity;
   transform: translateY(6rem) scale(0.93);
@@ -283,7 +290,12 @@ blockquote {
   transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
   
-.fade-in[data-scroll="in"], .fade-in-right[data-scroll="in"] ,.fade-in-left[data-scroll="in"] {
+.fade-in[data-scroll="in"] {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.fade-in-right[data-scroll="in"] ,.fade-in-left[data-scroll="in"] {
 	opacity: 1;
 	transform: translateY(0) scale(1);
 }

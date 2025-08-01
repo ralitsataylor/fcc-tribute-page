@@ -106,16 +106,16 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 ✅ service-worker.js                                                                                                                               
 
 # 🧰 Online resources and tools:
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white/) <img src="./dist/img/svgs/stackoverflow.svg?sanitize=true" alt="Git icon" loading="lazy"> ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white/) ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white/) ![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white/)                  
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white/) <img src="./dist/img/svgs/stackoverflow.svg?sanitize=true" alt="StackOverflow icon" loading="lazy"> ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white/) ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white/) ![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white/)                  
 🖼️ [Photopea [Online Photo Editor]](https://www.photopea.com/)                                                                         
 🪄 [svg-to-png & svg minification](https://www.svgviewer.dev/svg-to-png/)                                                               
 
 # 🌐 Browser Support:
 (Last updated and tested: 01/08/2025)                                                                                                                   
-🌟 Chrome 138.0.7204.169 (64-bit)                                                                                                                       
+🌟 Chrome 138.0.7204.184 (64-bit)                                                                                                                       
 🦊 Firefox 141.0 (64-bit)                                                                                                                               
-🏴‍☠️ Opera 120.0.5543.93 (64-bit)                                                                                                                      
-🪟 Edge 138.0.3351.95 (64-bit)                                                                                                                          
+🏴‍☠️ Opera 120.0.5543.128 (64-bit)                                                                                                                     
+🪟 Edge 138.0.3351.121 (64-bit)                                                                                                                         
 
 # 🧪 Online Validators:
 ✔️ [W3C HTML Validator](https://validator.w3.org/)                                                                                                     
@@ -131,7 +131,7 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 📝 https://codepen.io/davi3blu3/pen/Vegobo                                
 📝 https://codepen.io/mrtrimble/pen/YzRrzgM                                     
 📝 https://codepen.io/Rowan-Dempsey/pen/EajzryX                                 
-📝 https://codepen.io/MisaelM/pen/raONWOb
+📝 https://codepen.io/MisaelM/pen/raONWOb                                                                                                               
 📝 https://codepen.io/Fimko/pen/xbwbLPa                                                                                                                 
 📝 https://codepen.io/Marcos-Estrada/pen/gbawGzQ                                                                                                        
 🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                                                                                                                                      
