@@ -361,8 +361,8 @@ blockquote {
           height: var(--min-el-size);
           &.website-link {
             .link-light, .link-dark {
-              width: var(--min-el-size) / 2;
-              height: var(--min-el-size) / 2;
+              width: 1.5rem;
+              height: 1.5rem;
             }
           }
           &.fb-logo {
