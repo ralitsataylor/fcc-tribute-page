@@ -41,7 +41,7 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 <summary>📸 Screenshots</summary>
 
 ## 🖥️ Desktop preview
-<img src="dist/img/fcc_tribute_page_desktop_preview.jpg" loading="lazy">
+<img src="dist/img/fcc-tribute-page-desktop-preview.png" loading="lazy">
 
 <table width="100%">
   <thead>
@@ -52,33 +52,35 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
   </thead>
   <tbody>
     <tr>
-      <td width="50%"><img src="dist/img/fcc_tribute_page_tablet_preview.jpg" loading="lazy"></td>
-      <td width="50%"><img src="dist/img/fcc_tribute_page_mobile_preview.jpg" loading="lazy"></td>
+      <td width="50%"><img src="dist/img/fcc-tribute-page-tablet-preview.png" loading="lazy"></td>
+      <td width="50%"><img src="dist/img/fcc-tribute-page-mobile-preview.png" loading="lazy"></td>
     </tr>
   </tbody>
 </table>
 
 
 # 🏅 W3C HTML Validator
-<img src="dist/img/fcc_tribute_page_w3c_html_validator.png" loading="lazy">
+<img src="dist/img/fcc-tribute-page-w3-html-validator.png" loading="lazy">
 
 
 # 🏅 W3C CSS Validator
-<img src="dist/img/fcc_tribute_page_w3c_css_validator.png" loading="lazy">
+<img src="dist/img/fcc-tribute-page-w3c-css-validator.png" loading="lazy">
 
 
 # 🌈 Chrome LightHouse Audit
-* Desktop & Mobile:
+* Desktop:
+<img src="dist/img/fcc-tribute-page-light-house-audit-desktop.png" loading="lazy">
 
-<img src="dist/img/fcc_tribute_page_desktop_&_mobile_LightHouse_Audit.jpg" loading="lazy">
+* Mobile:
+<img src="dist/img/fcc-tribute-page-light-house-audit-mobile.png" loading="lazy">
 
 
 # ⚡ PageSpeed Insights Results
 * Desktop:
-<img src="dist/img/PageSpeed_Insights_desktop.jpg" loading="lazy">
+<img src="dist/img/fcc-tribute-page-pagespeed-insights-desktop.png" loading="lazy">
 
 * Mobile:
-<img src="dist/img/PageSpeed_Insights_mobile.jpg" loading="lazy">
+<img src="dist/img/fcc-tribute-page-pagespeed-insights-mobile.png" loading="lazy">
 
 </details>          
 <br>        

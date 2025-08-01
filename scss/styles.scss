@@ -371,11 +371,13 @@ blockquote {
         div {
           width: var(--min-el-size);
           height: var(--min-el-size);
-          &.website-link, &.fb-logo {
+          &.website-link {
             .link-light, .link-dark {
               width: var(--min-el-size) / 2;
               height: var(--min-el-size) / 2;
             }
+          }
+          &.fb-logo {
             .fb-logo-light, .fb-logo-dark {
               width: 2rem;
               height: 2rem;
