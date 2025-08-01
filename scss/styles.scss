@@ -94,12 +94,12 @@ a {
       border: var(--border);
       @include thickBoxShadow;
       border-radius: var(--rounded-el-radius);
-      &#hero-img-small {
-        display: flex;
-      }
-      &#hero-img-large {
-        display: none;
-      }
+      // &#hero-img-small {
+      //   display: flex;
+      // }
+      // &#hero-img-large {
+      //   display: none;
+      // }
     }
   }
   .hero-caption {
@@ -396,18 +396,18 @@ blockquote {
     margin-bottom: .25rem;
   }
   /** Hero Section styles **/
-  .hero-container {
-    .img-container {
-      img {
-        &#hero-img-small {
-          display: none;
-        }
-        &#hero-img-large {
-          display: flex;
-        }
-      }
-    }
-  }
+  // .hero-container {
+  //   .img-container {
+  //     img {
+  //       &#hero-img-small {
+  //         display: none;
+  //       }
+  //       &#hero-img-large {
+  //         display: flex;
+  //       }
+  //     }
+  //   }
+  // }
   .social-links {
     gap: 2rem !important;
   }
