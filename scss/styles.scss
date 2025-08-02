@@ -89,19 +89,19 @@ a {
   border: var(--border);
   background-color: var(--inverted);
   @include thickBoxShadow;
-  // .img-container {
-  //   img {
-  //     border: var(--border);
-  //     @include thickBoxShadow;
-  //     border-radius: var(--rounded-el-radius);
-  //     &#hero-img-small {
-  //       display: flex;
-  //     }
-  //     &#hero-img-large {
-  //       display: none;
-  //     }
-  //   }
-  // }
+  .img-container {
+    img {
+      border: var(--border);
+      @include thickBoxShadow;
+      border-radius: var(--rounded-el-radius);
+      // &#hero-img-small {
+      //   display: flex;
+      // }
+      // &#hero-img-large {
+      //   display: none;
+      // }
+    }
+  }
   .hero-caption {
     color: var(--primary);
     border-top: var(--border);
