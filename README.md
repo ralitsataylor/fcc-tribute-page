@@ -113,7 +113,7 @@ Remember to use the [Read-Search-Ask](https://www.freecodecamp.org/forum/t/how-t
 🪄 [svg-to-png & svg minification](https://www.svgviewer.dev/svg-to-png/)                                                               
 
 # 🌐 Browser Support:
-(Last updated and tested: 01/08/2025)                                                                                                                   
+(Last updated and tested: 02/08/2025)                                                                                                                   
 🌟 Chrome 138.0.7204.184 (64-bit)                                                                                                                       
 🦊 Firefox 141.0 (64-bit)                                                                                                                               
 🏴‍☠️ Opera 120.0.5543.128 (64-bit)                                                                                                                     
