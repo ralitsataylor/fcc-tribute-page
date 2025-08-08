@@ -1,0 +1,327 @@
+/** global classes styling and variables definitions **/
+:root {
+  --primary: #000000;
+  --inverted: #ffffff;
+  --light-grey: #948a82;
+  --yellow: #ffe32d;
+  --blue: #000080;
+  --border: 3px solid var(--primary);
+  --transition: .5s;
+  --el-size: 4rem;
+}
+
+@mixin easeOut { 
+  transition: all .5s ease-out; 
+}
+@mixin thickBoxShadow { 
+  box-shadow: 0 .625rem 3.125rem .625rem rgba(0, 0, 0, .5); /* 0 10px 50px 10px */
+} 
+
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
+
+body {
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  background-color: var(--light-grey); 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a { 
+  color: var(--blue); 
+  &:hover { 
+    text-decoration: underline !important; 
+  }
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-el {
+  width: var(--el-size);
+  height: var(--el-size);
+}
+
+/** .scrollToTop button styling **/
+.scrollToTop {
+  cursor: pointer;
+  bottom: 50rem; /* 800px */
+  right: 1.25rem; /* 20px */
+  z-index: 100000;
+  border: var(--border);
+  background-color: var(--yellow);
+  visibility: hidden;
+  opacity: 0;
+  &.active { 
+    visibility: visible; 
+    opacity: 1; 
+    bottom: 25%; 
+  }
+  transform: translateY(30%);
+  transition: var(--transition);
+  @include thickBoxShadow;
+  &:hover { 
+    background-color: var(--inverted); 
+  }
+}
+
+/** #main styling **/
+#main {
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: var(--light-grey);
+}
+
+/** Hero Section styles **/
+.hero-container {
+  border: var(--border);
+  background-color: var(--inverted);
+  @include thickBoxShadow;
+  img {
+    object-fit: cover;
+    border: var(--border);
+    @include thickBoxShadow;
+  }
+  .hero-caption {
+    color: var(--primary);
+    border-top: var(--border);
+    background-color: var(--yellow);
+    border-bottom-left-radius: .85rem;
+    border-bottom-right-radius: .85rem;
+  }
+}
+
+/** Timeline styles **/
+.main-timeline-content {
+  /* The actual timeline (the vertical ruler) */
+  &:after {
+    content: "";
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    width: .1875rem; /* 3px */
+    margin-left: -.1875rem; /* -3px */
+    position: absolute;
+    background-color: var(--primary);
+  }
+  /* Container around content */
+  .timeline-content {
+    width: 50%;
+    /* The circles on the timeline */
+    .timeline-dot {
+      content: "";
+      width: 1.0625rem; /* 17px */
+      height: 1.0625rem; /* 17px */
+      top: .875rem; /* 14px */
+      right: -.4375rem; /* -7px */
+      z-index: 1;
+      background-color: var(--primary);
+    }
+    /* Place the container to the left */
+    &.left-side {
+      left: 0;
+      padding: 0 2.5rem 1.25rem 0; /* 0 40px 20px 0 */
+      .card {
+        &:before {
+          right: -.625rem; /* -10px */ 
+        }
+      }
+    }
+    /* Place the container to the right */
+    &.right-side {
+      left: 50%;
+      padding: 0 0 1.25rem 2.5rem; /* 0 0 20px 40px */
+      /* The circles on the timeline */
+      .timeline-dot {
+        left: -.625rem; /* -10px */ 
+      }
+      .card {
+        &:before {
+          left: -.625rem; /* -10px */ 
+          transform: rotateY(180deg);
+        }
+      }
+    }
+    &.left-side, &.right-side {
+      .card {
+        border: .1875rem solid var(--primary); /* 3px */
+        background-color: var(--inverted);
+        /* Add arrows to the left and right container */
+        &:before {
+          content: " ";
+          position: absolute;
+          top: .625rem; /* 10px */ 
+          z-index: 1;
+          border: var(--border);
+          border-width: .625rem 0 .625rem .625rem; /* 10px 0 10px 10px; */
+          border-color: transparent transparent transparent var(--primary);
+        }
+        .card-header {
+          background-color: var(--yellow);
+          border-color: var(--primary);
+          border-width: .1875rem; /* 3px */
+          line-height: 1;
+        }
+        .card-body {
+          padding: .5rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+/** blockquote styling **/
+blockquote {
+  p, cite {  
+    color: var(--primary); 
+  }
+  span { 
+    color: var(--inverted); 
+  }
+  .quote-left {
+    left: -1rem;
+    top: -1rem;
+  }
+  .quote-right {
+    right: -1rem;
+    bottom: -1rem;
+  }
+}
+
+/** .socials styling **/
+.socials-container { 
+  overflow: hidden;
+  h3 { 
+    color: var(--primary); 
+  }
+  .social-links {
+    max-width: 30rem;
+    gap: .5rem;
+    div {
+      background-color: var(--inverted);
+      border: .1875rem solid var(--yellow); /* 3px */
+      height: var(--el-size);
+      width: var(--el-size);
+      @include easeOut;
+      /* Bootstrap icons */
+      &.website-link, &.fb-logo, &.twitter-logo, &.instagram-logo, &.mastodon-logo {
+        .link-light, .fb-logo-light, .twitter-light, .instagram-light, .mastodon-light {
+          display: none;
+        }
+        &:hover {
+          .link-dark, .fb-logo-dark, .twitter-dark, .instagram-dark, .mastodon-dark {
+            display: none;
+          }
+          .link-light, .fb-logo-light, .twitter-light, .instagram-light, .mastodon-light {
+            display: flex;
+          }
+        }
+      }
+      &:hover {
+        transform: translateY(-25%);
+        transition: var(--transition);
+        background-color: var(--primary);
+      }
+      a { 
+        color: var(--primary); 
+      }
+    }
+  }
+  /** .wiki-ref styling **/
+  .wiki-ref { 
+    .wiki-link { 
+      color: var(--inverted); 
+    }
+  }
+}
+
+/** footer styling **/
+#footer {
+  background-color: var(--yellow);
+  border: var(--border);
+  p {
+    color: var(--primary);
+    a {
+      color: var(--blue);
+    }
+  }
+}
+
+/** media queries for responsive design **/
+@media (max-width: 767px) {
+  #main {
+    /* styling text for smaller screens */
+    h1, p, span {
+      &.fs-2 {
+        font-size: 1.5rem !important;
+      }
+    }
+    /** Hero Section styles **/
+    .hero-card {
+      .lead {
+        font-size: 1.125rem !important;
+      }
+    }
+    /* Place the timelime to the left */
+    .main-timeline-content {
+      &:after {
+        left: .375rem; /* 6px */
+      }
+      /* Full-width containers */
+      .timeline-content {
+        width: 100%;
+        padding-left: 1.875rem; /* 30px */
+        padding-right: 0;
+        /* The circles on the timeline */
+        .timeline-dot { 
+          left: -.25rem; /* -4px */
+        }
+        /* Make sure that all arrows are pointing leftwards */
+        &:before {
+          left: 2.875rem; /* 46px */
+          border: var(--border);
+          border-width: .625rem .625rem .625rem 0; /* 10px 10px 10px 0; */
+          border-color: transparent var(--primary) transparent transparent;
+        }
+        &.left-side {
+          .card {
+            &:before {
+              right: 100%;
+              transform: rotateY(180deg);
+            }
+          }
+        }
+        /* Make all right containers behave like the left ones */
+        &.right-side {
+          left: 0%;
+        }
+        /* Make sure all circles are at the same spot */
+        &.left-side::after,
+        &.right-side::after {
+          left: -.5rem; /* -8px */
+        }
+      }
+    }
+    .socials-container {
+      .social-links {
+        div {
+          width: 3rem;
+          height: 3rem;
+          a {
+            padding: .45rem;
+          }
+        }
+      }
+    }
+  }
+}

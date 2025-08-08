@@ -1,0 +1,42 @@
+/** media queries for responsive design **/
+@media (min-width: 768px) {
+  /* styling text for smaller screens */
+  p {
+    &.fs-6 {
+      font-size: 1.25rem !important;
+    }
+  }
+  h2, span {
+    &.small {
+      font-size: 1.125rem !important;
+    }
+  }
+  .clock-icon {
+    margin-bottom: .25rem;
+  }
+  /** Social Links Section styles **/
+  .social-links {
+    gap: 2rem !important;
+    div {
+      &.website-link, &.fb-logo, &.twitter-logo, &.instagram-logo, &.mastodon-logo {
+        .link-dark, .link-light, .fb-logo-dark, .fb-logo-light, .twitter-dark, .twitter-light, 
+        .instagram-dark, .instagram-light, .mastodon-dark, .mastodon-light { 
+          width: 2.5rem; 
+          height: 2.5rem; 
+        }
+      }
+      a { 
+        padding: .65rem;
+      }
+    }
+  }
+}
+
+/** media queries for responsive design **/
+@media (min-width: 1200px) {
+  p, h3 {
+    &.fs-2 {
+      font-size: 1.5rem !important;
+    }
+  }
+}
