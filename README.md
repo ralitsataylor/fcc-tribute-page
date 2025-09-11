@@ -122,12 +122,12 @@ Mobile:
 # 🧰 Online resources and tools:
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white/) <img src="./dist/img/svgs/stackoverflow.svg?sanitize=true" alt="StackOverflow icon" loading="lazy"> ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white/) ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white/) ![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white/)                  
 🖼️ [Photopea [Online Photo Editor]](https://www.photopea.com/)                                                                         
-🪄 [svg-to-png & svg minification](https://www.svgviewer.dev/svg-to-png/)                                                               
+🪄 [svg-to-png & svg minification](https://www.svgviewer.dev/)                                                               
 ⭐ [jpg-to-webp free converter](https://www.freeconvert.com/jpg-to-webp/)            
 🌃 [favicon converter](https://favicon.io/favicon-converter/)                                                                                     
 
 # 🌐 Browser Support:
-(Last updated and tested: 08/09/2025)                                                                                                       
+(Last updated and tested: 11/09/2025)                                                                                                       
 🌟 Chrome 140.0.7339.81 (64-bit)                                                                                                            
 🦊 Firefox 142.0.1 (64-bit)                                                                                                                 
 🏴‍☠️ Opera 121.0.5600.50 (64-bit)                                                                                                        

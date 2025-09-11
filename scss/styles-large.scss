@@ -18,12 +18,9 @@
   .social-links {
     gap: 2rem !important;
     div {
-      &.website-link, &.fb-logo, &.twitter-logo, &.instagram-logo, &.mastodon-logo {
-        .link-dark, .link-light, .fb-logo-dark, .fb-logo-light, .twitter-dark, .twitter-light, 
-        .instagram-dark, .instagram-light, .mastodon-dark, .mastodon-light { 
-          width: 2.5rem; /* 40px */
-          height: 2.5rem; /* 40px */
-        }
+      svg {
+        width: 2.5rem; /* 40px */
+        height: 2.5rem; /* 40px */
       }
       a { 
         padding: .65rem; /* 10.4px */

@@ -230,23 +230,15 @@ blockquote {
       width: var(--el-size);
       @include easeOut;
       /* Bootstrap icons */
-      &.website-link, &.fb-logo, &.twitter-logo, &.instagram-logo, &.mastodon-logo {
-        .link-light, .fb-logo-light, .twitter-light, .instagram-light, .mastodon-light {
-          display: none;
-        }
-        &:hover {
-          .link-dark, .fb-logo-dark, .twitter-dark, .instagram-dark, .mastodon-dark {
-            display: none;
-          }
-          .link-light, .fb-logo-light, .twitter-light, .instagram-light, .mastodon-light {
-            display: flex;
-          }
-        }
-      }
       &:hover {
         transform: translateY(-25%);
         transition: var(--transition);
         background-color: var(--primary);
+        svg {
+          path {
+            fill: var(--inverted);
+          }
+        }
       }
       a { 
         color: var(--primary); 
