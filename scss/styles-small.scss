@@ -26,6 +26,10 @@
   box-sizing: border-box; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-weight: 400 !important;
   font-style: normal;
@@ -33,10 +37,6 @@ body {
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
   background-color: var(--light-grey); 
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 a { 
@@ -107,78 +107,89 @@ a {
 }
 
 /** Timeline styles **/
-.main-timeline-content {
-  /* The actual timeline (the vertical ruler) */
-  &:after {
-    content: "";
-    top: 0;
-    left: 50%;
-    bottom: 0;
-    width: .1875rem; /* 3px */
-    margin-left: -.1875rem; /* -3px */
-    position: absolute;
-    background-color: var(--primary);
-  }
-  /* Container around content */
-  .timeline-content {
-    width: 50%;
-    /* The circles on the timeline */
-    .timeline-dot {
+
+.timeline-container {
+  // Prevent layout shifts in timeline
+  min-height: 900px;
+  .main-timeline-content {
+    /* The actual timeline (the vertical ruler) */
+    &:after {
       content: "";
-      width: 1.0625rem; /* 17px */
-      height: 1.0625rem; /* 17px */
-      top: .875rem; /* 14px */
-      right: -.4375rem; /* -7px */
-      z-index: 1;
+      top: 0;
+      left: 50%;
+      bottom: 0;
+      width: .1875rem; /* 3px */
+      margin-left: -.1875rem; /* -3px */
+      position: absolute;
       background-color: var(--primary);
     }
-    /* Place the container to the left */
-    &.left-side {
-      left: 0;
-      padding: 0 2.5rem 1.25rem 0; /* 0 40px 20px 0 */
-      .card {
-        &:before {
-          right: -.625rem; /* -10px */ 
-        }
-      }
-    }
-    /* Place the container to the right */
-    &.right-side {
-      left: 50%;
-      padding: 0 0 1.25rem 2.5rem; /* 0 0 20px 40px */
+    /* Container around content */
+    .timeline-content {
+      width: 50%;
       /* The circles on the timeline */
       .timeline-dot {
-        left: -.625rem; /* -10px */ 
+        content: "";
+        width: 1.0625rem; /* 17px */
+        height: 1.0625rem; /* 17px */
+        top: .875rem; /* 14px */
+        right: -.4375rem; /* -7px */
+        z-index: 1;
+        background-color: var(--primary);
       }
-      .card {
-        &:before {
+      /* Place the container to the left */
+      &.left-side {
+        left: 0;
+        padding: 0 2.5rem 1.25rem 0; /* 0 40px 20px 0 */
+        .card {
+          &:before {
+            right: -.625rem; /* -10px */ 
+          }
+        }
+      }
+      /* Place the container to the right */
+      &.right-side {
+        left: 50%;
+        padding: 0 0 1.25rem 2.5rem; /* 0 0 20px 40px */
+        /* The circles on the timeline */
+        .timeline-dot {
           left: -.625rem; /* -10px */ 
-          transform: rotateY(180deg);
+        }
+        .card {
+          &:before {
+            left: -.625rem; /* -10px */ 
+            transform: rotateY(180deg);
+          }
         }
       }
-    }
-    &.left-side, &.right-side {
-      .card {
-        border: .1875rem solid var(--primary); /* 3px */
-        background-color: var(--inverted);
-        /* Add arrows to the left and right container */
-        &:before {
-          content: " ";
-          position: absolute;
-          top: .625rem; /* 10px */ 
-          z-index: 1;
-          border: var(--border);
-          border-width: .625rem 0 .625rem .625rem; /* 10px 0 10px 10px; */
-          border-color: transparent transparent transparent var(--primary);
-        }
-        .card-header {
-          background-color: var(--yellow);
-          border-color: var(--primary);
-          border-width: .1875rem; /* 3px */
-          line-height: 1;
-        }
-        .card-body {
-          padding: .5rem 1rem; /* 8px 16px */
+      &.left-side, &.right-side {
+        .card {
+          border: .1875rem solid var(--primary); /* 3px */
+          background-color: var(--inverted);
+          // Prevent layout shifts in timeline
+          min-height: 120px;
+          img {
+            // Prevent layout shifts in timeline
+            object-fit: cover;
+          }
+          /* Add arrows to the left and right container */
+          &:before {
+            content: " ";
+            position: absolute;
+            top: .625rem; /* 10px */ 
+            z-index: 1;
+            border: var(--border);
+            border-width: .625rem 0 .625rem .625rem; /* 10px 0 10px 10px; */
+            border-color: transparent transparent transparent var(--primary);
+          }
+          .card-header {
+            background-color: var(--yellow);
+            border-color: var(--primary);
+            border-width: .1875rem; /* 3px */
+            line-height: 1;
+          }
+          .card-body {
+            padding: .5rem 1rem; /* 8px 16px */
+          }
         }
       }
     }
