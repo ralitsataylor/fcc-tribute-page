@@ -1,6 +1,13 @@
 /** media queries for responsive design **/
 @media (min-width: 768px) {
   /* styling text for smaller screens */
+  .fs-6 { 
+    font-size: 1.25rem !important; /* 20px */
+  }
+  .small { 
+    font-size: 1.125rem !important; /* 18px */
+  }
+  /* styling text for smaller screens */
   .clock-icon {
     margin-bottom: .25rem; /* 4px */
   }
@@ -17,4 +24,9 @@
       }
     }
   }
+}
+
+/** media queries for responsive design **/
+@media (min-width: 1200px) {
+  .fs-2 { font-size: 1.5rem !important; }
 }
