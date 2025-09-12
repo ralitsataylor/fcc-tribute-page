@@ -127,11 +127,11 @@ Mobile:
 🌃 [favicon converter](https://favicon.io/favicon-converter/)                                                                                     
 
 # 🌐 Browser Support:
-(Last updated and tested: 11/09/2025)                                                                                                       
-🌟 Chrome 140.0.7339.81 (64-bit)                                                                                                            
+(Last updated and tested: 12/09/2025)                                                                                                       
+🌟 Chrome 140.0.7339.128 (64-bit)                                                                                                            
 🦊 Firefox 142.0.1 (64-bit)                                                                                                                 
-🏴‍☠️ Opera 121.0.5600.50 (64-bit)                                                                                                        
-🪟 Edge 140.0.3485.54 (64-bit)                                                                                                             
+🏴‍☠️ Opera 122.0.5643.17 (64-bit)                                                                                                        
+🪟 Edge 140.0.3485.66 (64-bit)                                                                                                             
 
 # 🧪 Online Validators:
 ✔️ [W3C HTML Validator](https://validator.w3.org/)                                                                                               
@@ -143,11 +143,8 @@ Mobile:
 📑 https://getbootstrap.com/docs/5.3/examples/heroes      
 📑 https://mdbootstrap.com/docs/standard/extended/timeline                                                                                        
 📝 https://codepen.io/itshally/pen/mzrOrx                                                                                                         
-📝 https://codepen.io/completejavascript/pen/rpPaYL                                                                                               
-📝 https://codepen.io/Rowan-Dempsey/pen/EajzryX                                                                                                    
-🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                       
-🎞️ [Learn Bootstrap 5: Build a Stunning User Profile UI with HTML & CSS [YouTube]](https://www.youtube.com/watch?v=W11peN4RaGQ/)                  
-🎞️ [Bootstrap 5 Responsive Profile Cards [YouTube]](https://www.youtube.com/watch?v=X_knKpPhqA4/)                       
+📝 https://codepen.io/completejavascript/pen/rpPaYL                                                                                                        
+🎞️ [Fadein and Fadeout Back To Top Button on Page Scroll using CSS and Vanilla JS [YouTube]](https://youtu.be/Pd71ZZeIhaI/)                               
 
 ---
   

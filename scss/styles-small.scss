@@ -31,8 +31,6 @@ html {
 }
 
 body {
-  font-weight: 400 !important;
-  font-style: normal;
   font-size: 1rem;
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
@@ -110,7 +108,7 @@ a {
 
 .timeline-container {
   // Prevent layout shifts in timeline
-  min-height: 900px;
+  min-height: 56.25rem; /* 900px */
   .main-timeline-content {
     /* The actual timeline (the vertical ruler) */
     &:after {
@@ -166,7 +164,7 @@ a {
           border: .1875rem solid var(--primary); /* 3px */
           background-color: var(--inverted);
           // Prevent layout shifts in timeline
-          min-height: 120px;
+          min-height: 5.9375rem; /* 95px */
           img {
             // Prevent layout shifts in timeline
             object-fit: cover;
@@ -178,7 +176,7 @@ a {
             top: .625rem; /* 10px */ 
             z-index: 1;
             border: var(--border);
-            border-width: .625rem 0 .625rem .625rem; /* 10px 0 10px 10px; */
+            border-width: .625rem 0 .625rem .625rem; /* 10px 0 10px 10px */
             border-color: transparent transparent transparent var(--primary);
           }
           .card-header {
@@ -221,7 +219,7 @@ blockquote {
     color: var(--primary); 
   }
   .social-links {
-    max-width: 30rem;
+    max-width: 30rem; /* 480px */
     gap: .5rem; /* 8px */
     div {
       background-color: var(--inverted);
