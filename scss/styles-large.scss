@@ -1,16 +1,6 @@
 /** media queries for responsive design **/
 @media (min-width: 768px) {
   /* styling text for smaller screens */
-  p {
-    &.fs-6 {
-      font-size: 1.25rem !important; /* 20px */
-    }
-  }
-  h2, span {
-    &.small {
-      font-size: 1.125rem !important; /* 18px */
-    }
-  }
   .clock-icon {
     margin-bottom: .25rem; /* 4px */
   }
@@ -25,15 +15,6 @@
       a { 
         padding: .65rem; /* 10.4px */
       }
-    }
-  }
-}
-
-/** media queries for responsive design **/
-@media (min-width: 1200px) {
-  p, h3 {
-    &.fs-2 {
-      font-size: 1.5rem !important; /* 24px */
     }
   }
 }

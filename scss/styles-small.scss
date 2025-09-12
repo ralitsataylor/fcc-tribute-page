@@ -266,18 +266,6 @@ blockquote {
 /** media queries for responsive design **/
 @media (max-width: 767px) {
   #main {
-    /* styling text for smaller screens */
-    h1, p, span {
-      &.fs-2 {
-        font-size: 1.5rem !important; /* 24px */
-      }
-    }
-    /** Hero Section styles **/
-    .hero-card {
-      .lead {
-        font-size: 1.125rem !important; /* 18px */
-      }
-    }
     /* Place the timelime to the left */
     .main-timeline-content {
       &::after {
