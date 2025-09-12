@@ -208,6 +208,7 @@ blockquote {
   .quote-right {
     right: -1rem;
     bottom: -1rem;
+    transform: rotate(180deg);
   }
 }
 
