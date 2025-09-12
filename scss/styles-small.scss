@@ -1,3 +1,63 @@
+// CSS-only fade-in effect for timeline
+// .timeline-content {
+//   opacity: 0;
+//   transform: translateX(0);
+//   transition: opacity 0.8s, transform 0.8s;
+// }
+// .timeline-content.fade-in-left {
+//   opacity: 1;
+//   transform: translateX(0);
+//   animation: fadeInLeft 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+// }
+// .timeline-content.fade-in-right {
+//   opacity: 1;
+//   transform: translateX(0);
+//   animation: fadeInRight 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+// }
+// .timeline-content.left-side {
+//   transform: translateX(-60px);
+// }
+// .timeline-content.right-side {
+//   transform: translateX(60px);
+// }
+// @keyframes fadeInLeft {
+//   from { opacity: 0; transform: translateX(-60px); }
+//   to   { opacity: 1; transform: translateX(0); }
+// }
+// @keyframes fadeInRight {
+//   from { opacity: 0; transform: translateX(60px); }
+//   to   { opacity: 1; transform: translateX(0); }
+// }
+// Scroll-driven fade-in animations for timeline
+// .timeline-container {
+//   view-timeline-name: --timeline;
+//   view-timeline-axis: block;
+// }
+
+// .timeline-content {
+//   opacity: 0;
+//   animation-duration: 1s;
+//   animation-fill-mode: both;
+//   animation-timeline: --timeline;
+//   animation-range: entry 20% cover 40%;
+// }
+
+// .timeline-content.left-side {
+//   animation-name: fadeInLeft;
+// }
+// .timeline-content.right-side {
+//   animation-name: fadeInRight;
+// }
+
+// @keyframes fadeInLeft {
+//   from { opacity: 0; transform: translateX(-60px); }
+//   to   { opacity: 1; transform: translateX(0); }
+// }
+
+// @keyframes fadeInRight {
+//   from { opacity: 0; transform: translateX(60px); }
+//   to   { opacity: 1; transform: translateX(0); }
+// }
 /** global classes styling and variables definitions **/
 :root {
   --primary: #000000;
@@ -33,7 +93,8 @@ html {
 body {
   font-size: 1rem;
   line-height: 1.5;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-display: swap;
   background-color: var(--light-grey); 
 }
 
@@ -220,7 +281,7 @@ blockquote {
   }
   .social-links {
     max-width: 30rem; /* 480px */
-    gap: .5rem; /* 8px */
+    gap: .75rem; /* 12px */
     div {
       background-color: var(--inverted);
       border: .1875rem solid var(--yellow); /* 3px */
